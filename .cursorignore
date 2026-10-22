@@ -1,0 +1,93 @@
+# Dependencies & virtual environments
+node_modules/
+.venv/
+venv/
+env/
+.conda/
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+.tox/
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+.cache/
+
+# Build & distribution
+dist/
+build/
+out/
+.next/
+.nuxt/
+.turbo/
+.parcel-cache/
+*.egg-info/
+.eggs/
+site/
+coverage/
+htmlcov/
+.nyc_output/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Heavy database dumps & backups
+*.sql
+*.sql.gz
+*.sql.bz2
+*.dump
+*.rdb
+*.sqlite
+*.sqlite3
+*.db
+*.bak
+
+# Media & large binaries
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm
+*.mp3
+*.wav
+*.flac
+*.ogg
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+*.iso
+*.dmg
+*.psd
+*.ai
+*.sketch
+*.fig
+
+# Images (uncomment if the project has many assets you don't need indexed)
+# *.png
+# *.jpg
+# *.jpeg
+# *.gif
+# *.webp
+# *.ico
+# *.svg
+
+# OS & editor noise
+.DS_Store
+Thumbs.db
+.idea/
+*.swp
+*.swo
+
+# Env / secrets (keep out of AI context)
+.env
+.env.*
+!.env.example
