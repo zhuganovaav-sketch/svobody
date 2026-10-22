@@ -1,0 +1,10 @@
+node_modules
+dist
+build
+coverage
+.next
+.venv
+venv
+__pycache__
+*.min.js
+package-lock.json

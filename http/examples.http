@@ -1,0 +1,15 @@
+### Health check example
+GET http://localhost:3000/health
+
+### JSON POST example
+POST http://localhost:3000/api/example
+Content-Type: application/json
+
+{
+  "name": "svobody",
+  "active": true
+}
+
+### With query params
+GET http://localhost:3000/api/items?limit=10&offset=0
+Accept: application/json
