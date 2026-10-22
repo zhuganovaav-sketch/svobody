@@ -1,0 +1,22 @@
+[tool.black]
+line-length = 88
+target-version = ["py311"]
+extend-exclude = '''
+/(
+  \.venv
+  | venv
+  | dist
+  | build
+)/
+'''
+
+[tool.flake8]
+max-line-length = 88
+extend-ignore = ["E203", "W503"]
+exclude = [".venv", "venv", "dist", "build", "__pycache__", ".git"]
+
+[tool.pylint.main]
+ignore = [".venv", "venv", "dist", "build"]
+
+[tool.pylint.format]
+max-line-length = 88
